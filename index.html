@@ -440,9 +440,9 @@ input[aria-invalid="true"]{border-color:#B3261E;background:#FDF1F0}
         </a>
         <a class="foot-ic" href="https://wa.me/5515996430341" target="_blank" rel="noopener noreferrer">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22c5.46 0 9.91-4.45 9.91-9.9C21.95 6.44 17.5 2 12.04 2Zm0 1.67c4.55 0 8.24 3.69 8.24 8.24s-3.7 8.23-8.24 8.23a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.19 8.19 0 0 1-1.26-4.37c0-4.55 3.7-8.24 8.24-8.24Zm-4.5 4.3c-.16 0-.42.06-.64.3-.22.24-.85.83-.85 2.03 0 1.2.87 2.35 1 2.51.12.16 1.7 2.6 4.13 3.64.58.25 1.03.4 1.38.51.58.19 1.11.16 1.53.1.47-.07 1.44-.59 1.64-1.16.2-.57.2-1.06.14-1.16-.06-.1-.22-.16-.46-.28-.24-.12-1.44-.71-1.66-.79-.22-.08-.38-.12-.55.12-.16.24-.63.79-.77.95-.14.16-.28.18-.52.06-.24-.12-1.02-.38-1.94-1.2-.72-.64-1.2-1.43-1.34-1.67-.14-.24-.02-.37.1-.49.11-.11.24-.28.36-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.55-1.34-.76-1.83-.2-.48-.4-.42-.55-.42Z"/></svg>
-          WhatsApp
+          WhatsApp (15) 99643-0341
         </a>
-        
+        <a href="#" id="link-lojista">Área do lojista</a>
       </div>
     </div>
     <div class="foot-bottom">
@@ -503,6 +503,12 @@ input[aria-invalid="true"]{border-color:#B3261E;background:#FDF1F0}
           <div class="campo full"><label for="c-nome">Nome impresso</label><input id="c-nome" placeholder="JOYCE OLIVEIRA"><p class="erro"></p></div>
           <div class="campo"><label for="c-val">Validade</label><input id="c-val" inputmode="numeric" placeholder="12/29"><p class="erro"></p></div>
           <div class="campo"><label for="c-cvv">CVV</label><input id="c-cvv" inputmode="numeric" placeholder="123"><p class="erro"></p></div>
+          <div class="campo full"><label for="c-parc">Parcelamento</label>
+            <select id="c-parc">
+              <option value="1">1x sem juros</option>
+              <option value="2">2x sem juros</option>
+            </select>
+          </div>
         </div>
       </div>
     </form>
@@ -532,7 +538,7 @@ input[aria-invalid="true"]{border-color:#B3261E;background:#FDF1F0}
     <div class="esteira" id="esteira"></div>
     <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:26px">
       <button class="btn btn-ouro" data-voltar>Voltar à loja</button>
-      
+      <button class="btn btn-ghost" id="ir-dashboard">Ver painel do lojista</button>
     </div>
   </div>
 </div>
